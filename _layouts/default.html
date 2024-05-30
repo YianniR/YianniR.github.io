@@ -2,24 +2,26 @@
 layout: base
 ---
 
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
 <div class="intro-header"></div>
 
 <main class="{% if page.full-width %} container-fluid {% else %} container-md {% endif %}">
-  {% if page.before-content %}
+    {% if page.before-content %}
     <div class="before-content">
-      {% for file in page.before-content %}
+        {% for file in page.before-content %}
         {% include {{ file }} %}
-      {% endfor %}
+        {% endfor %}
     </div>
-  {% endif %}
+    {% endif %}
 
-  {{ content }}
+    {{ content }}
 
-  {% if page.after-content %}
+    {% if page.after-content %}
     <div class="after-content">
-      {% for file in page.after-content %}
+        {% for file in page.after-content %}
         {% include {{ file }} %}
-      {% endfor %}
+        {% endfor %}
     </div>
-  {% endif %}
+    {% endif %}
 </main>
