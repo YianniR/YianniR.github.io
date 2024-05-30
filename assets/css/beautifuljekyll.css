@@ -1123,3 +1123,32 @@ pre {
     display: inline-block;
   }
 }
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.gallery-item {
+    flex: 1 1 calc(25% - 10px);
+    box-sizing: border-box;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item a {
+    text-decoration: none;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.05);
+}
