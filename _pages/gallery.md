@@ -4,8 +4,6 @@ title: Photo Gallery
 permalink: /gallery/
 ---
 
-<h1>Photo Gallery</h1>
-
 <h2>Photography</h2>
 <div class="gallery">
   {% for image in site.static_files %}
