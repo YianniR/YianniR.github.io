@@ -22,7 +22,6 @@ author: Yiannis Ravanis
 navbar-links:
   Gallery: "gallery"
   # About Me: "aboutme"
-  # Projects: "projects"
 
 ################
 # --- Logo --- #
@@ -51,9 +50,9 @@ social-network-links:
   # rss: true # remove this line if you don't want to show an RSS link at the bottom
   github: YianniR
   youtube: "@im_yiannis"
+  linkedin: yiannis-ravanis
 #  medium: yourname
 #  reddit: yourname
- linkedin: yiannis-ravanis
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
