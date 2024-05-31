@@ -47,12 +47,12 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
   email: "yiannis@ravanis.com"
-  rss: true # remove this line if you don't want to show an RSS link at the bottom
+  # rss: true # remove this line if you don't want to show an RSS link at the bottom
   github: YianniR
   youtube: "@im_yiannis"
 #  medium: yourname
 #  reddit: yourname
-#  linkedin: daattali
+ linkedin: yiannis-ravanis
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
