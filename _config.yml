@@ -20,7 +20,7 @@ author: Yiannis Ravanis
 ###############################################
 
 navbar-links:
-  Gallery: "gallery"
+  # Gallery: "gallery"
   # About Me: "aboutme"
 
 ################
